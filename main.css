@@ -1,0 +1,88 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  h2{
+     font-family:verdana, bold;
+     
+
+  }
+  
+ 
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .hero {
+    background-image: url( bg4\(1\).png), url(bg6.gif);
+    background-position: 100px;
+    background-position-x: -48rem, 22rem;
+    background-position-y: -15rem,-10rem;
+     background-size: 10rem,10rem;
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100px;
+
+  }
+ 
+  
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #369650;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .services {
+    padding: 50px;
+    
+  }
+  
+  .service {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
